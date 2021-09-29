@@ -2,7 +2,7 @@ package ch04;
 
 public class IfTest2 {
     public static void main(String[] args){
-        int score = 89;
+        int score = 50;
         char grade = 'D';
         char pm = ' ';
 
@@ -15,19 +15,19 @@ public class IfTest2 {
             }
         } else if (score >= 80) {
             grade = 'A';
-            if (score >= 98) {
+            if (score >= 88) {
                 pm = '+';
-            } else if (score <= 93) {
+            } else if (score <= 83) {
                 pm = '-';
             }
         } else if (score >= 70) {
             grade = 'A';
-            if(score >= 98) {
+            if (score >= 78) {
                 pm = '+';
-            }else if (score <= 93) {
+            } else if (score <= 73) {
                 pm = '-';
-
             }
         }
+        System.out.printf("%c%c", grade, pm);
+        }
     }
-}
