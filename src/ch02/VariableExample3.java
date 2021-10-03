@@ -10,8 +10,6 @@ public class VariableExample3 {
         System.out.printf("%c : %d\n", (char)i, i);
 
         boolean bl = false;
-
-
         System.out.println(bl);
     }
 }

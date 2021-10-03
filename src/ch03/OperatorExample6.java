@@ -1,7 +1,7 @@
 package ch03;
 
 public class OperatorExample6 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int n1 = 10;
         int n2 = 0;
 

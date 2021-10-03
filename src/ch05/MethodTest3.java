@@ -15,7 +15,6 @@ public class MethodTest3 {
     }
 
     public static int getRandom(int n1, int n2) {
-        int result = (int) (Math.random() * (n2 - n1 + 1)) + n1;
-        return result;
+        return (int)(Math.random() * (n2 - n1 + 1)) + n1;
     }
 }
