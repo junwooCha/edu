@@ -14,6 +14,8 @@ public class ArrayCopyExample2 {
             arr2[i] = arr1[i];
         }
 
+        arr1[0] = 100;
+
         for(int i=0; i<arr2.length; i++) {
             System.out.println(arr2[i]);
         }

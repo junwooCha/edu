@@ -9,7 +9,7 @@ public class ArrayExample {
         for문과 함께 사용하면 개꿀~~~
          */
 
-        int[] scores = { 83, 90, 87, 100, 50 }; //int형 배열
+        int[] scores = { 83, 90, 87, 100, 50, 99 }; //int형 배열
         //scores[5] = 11;
         //System.out.println( scores[0] );
 

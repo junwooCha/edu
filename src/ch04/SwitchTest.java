@@ -2,7 +2,7 @@ package ch04;
 
 public class SwitchTest {
     public static void main(String[] args) {
-        int mon = (int)(Math.random() * 14) + 1; // 1~12
+        int mon = (int)(Math.random() * 13) + 1; // 1~12
         System.out.printf("%d월 ", mon);
         //swtich문에 mon변수를 활용하여서
         //12, 1, 2 > "겨울"

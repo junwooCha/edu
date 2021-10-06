@@ -9,7 +9,11 @@ public class MethodExample {
 
     public static void sum(int n1, int n2) {
         System.out.println("sum : " + (n1 + n2));
-        return;
+    }
+
+    public static int sum() {
+        System.out.println("sum : 10");
+        return 1;
     }
 
     public static void minus(int n1, int n2, int n3) {
